@@ -42,7 +42,7 @@ Enter the numerical monetary amount you want to evaluate when prompted.
 
 Verify that the console outputs the correct converted value accompanied by the appropriate target currency symbol. Test with multiple currency pairs and edge cases (such as invalid codes or network disruptions) to ensure error messages trigger properly.
 
-Screenshots (Optional)
+Screenshots 
 Code:
 <img width="692" height="762" alt="Screenshot 2026-09-16 231640" src="https://github.com/user-attachments/assets/71e5006d-ae3d-430a-8b20-3901fbf30534" />
 <img width="842" height="557" alt="Screenshot 2026-09-16 231656" src="https://github.com/user-attachments/assets/bb822680-1637-4f51-a44e-5085fd84cc27" />
