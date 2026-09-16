@@ -1,35 +1,26 @@
-Java Currency Converter
-Overview of the Project
+# Java Currency Converter
+
+## Overview of the Project
 The Java Currency Converter is a lightweight, console-based software application designed to provide real-time currency conversion functionality. By integrating with a live web API, the application allows users to convert monetary amounts between global currencies accurately, taking into account current market rates. It features an interactive text menu displaying standard currency codes and utilizes native Java features for local formatting.
 
-Features
-Live Exchange Rates: Fetches up-to-date conversion rates dynamically through an external web service API.
+## Features
+* **Live Exchange Rates:** Fetches up-to-date conversion rates dynamically through an external web service API.
+* **Interactive Menu:** Provides a structured information chart containing top global currency options and their ISO codes for easy user selection.
+* **Standardized Symbol Formatting:** Leverages Java's built-in utility classes to automatically retrieve and display official symbols (such as $, €, £, and ₹) for target currencies.
+* **Lightweight String Parsing:** Employs standard string splitting techniques to read JSON responses directly without requiring bulky external library dependencies like Gson or Jackson.
 
-Interactive Menu: Provides a structured information chart containing top global currency options and their ISO codes for easy user selection.
+## Technologies/Tools Used
+* **Programming Language:** Java (JDK 11 or higher)
+* **Core Libraries & Packages:** `java.util.Scanner`, `java.net.http.HttpClient`, `java.util.Currency`
+* **External API:** ExchangeRate-API for live currency conversion data pairs
 
-Standardized Symbol Formatting: Leverages Java's built-in utility classes to automatically retrieve and display official symbols (such as $, €, £, and ₹) for target currencies.
-
-Lightweight String Parsing: Employs standard string splitting techniques to read JSON responses directly without requiring bulky external library dependencies like Gson or Jackson.
-
-Technologies/Tools Used
-Programming Language: Java (JDK 11 or higher)
-
-Core Libraries & Packages: java.util.Scanner, java.net.http.HttpClient, java.util.Currency
-
-External API: ExchangeRate-API for live currency conversion data pairs
-
-Steps to Install & Run the Project
-Clone or download the repository containing the project files to your local machine.
-
-Open the project folder in your preferred Java Integrated Development Environment (such as IntelliJ IDEA, Eclipse, or VS Code).
-
-Ensure that the source code file currencyConverter.java is located correctly in your working directory.
-
-Compile the Java program using the terminal or command prompt:
-javac currencyConverter.java
-
-Execute the compiled application:
-java currencyConverter
+## Steps to Install & Run the Project
+1. Clone or download the repository containing the project files to your local machine.
+2. Open the project folder in your preferred Java Integrated Development Environment (such as IntelliJ IDEA, Eclipse, or VS Code).
+3. Ensure that the source code file `currencyConverter.java` is located correctly in your working directory.
+4. Compile the Java program using the terminal or command prompt:
+   ```bash
+   javac currencyConverter.java
 
 Instructions for Testing
 Run the application; a text-based menu listing currency codes (e.g., USD, EUR, INR, GBP) will appear in your console.
