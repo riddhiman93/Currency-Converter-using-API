@@ -32,10 +32,10 @@ The Java Currency Converter is a lightweight, console-based software application
 6. **Edge Case Testing:** Test with multiple currency pairs and edge cases (such as invalid currency codes or simulated network disruptions) to ensure that error messages trigger properly.
 
 ## Screenshots 
-* **Code:
+* **Code:**
 <img width="692" height="762" alt="Screenshot 2026-09-16 231640" src="https://github.com/user-attachments/assets/71e5006d-ae3d-430a-8b20-3901fbf30534" />
 <img width="842" height="557" alt="Screenshot 2026-09-16 231656" src="https://github.com/user-attachments/assets/bb822680-1637-4f51-a44e-5085fd84cc27" />
-* **Output:
+* **Output:**
 <img width="492" height="337" alt="Screenshot 2026-09-16 231716" src="https://github.com/user-attachments/assets/5938104b-9430-43d3-a42f-b4bd4e8d03b8" />
 
 
