@@ -30,10 +30,11 @@ The Java Currency Converter is a lightweight, console-based software application
 5. **Edge Case Testing:** Test with invalid menu choices (such as entering a number outside of 1-6) to ensure the `Invalid choice!` message triggers properly.
    
 ## Screenshots 
-<img width="337" height="242" alt="Screenshot 2026-09-18 193901" src="https://github.com/user-attachments/assets/cac4dd36-0d38-442d-af81-eb4657496d72" />
-<img width="803" height="860" alt="Screenshot 2026-09-18 193755" src="https://github.com/user-attachments/assets/a8aae20c-e55f-4eed-b6f2-382309e64f45" />
-<img width="996" height="866" alt="Screenshot 2026-09-18 193742" src="https://github.com/user-attachments/assets/ad5c82c4-5b63-4962-971f-d564876cb419" />
-<img width="633" height="860" alt="Screenshot 2026-09-18 193730" src="https://github.com/user-attachments/assets/85136c2f-b109-49dc-aba8-eb732d1a421f" />
+<img width="633" height="860" alt="Screenshot 2026-09-18 193730" src="https://github.com/user-attachments/assets/f0e99a55-3c45-41b5-bb01-81d71025c77c" />
+<img width="996" height="866" alt="Screenshot 2026-09-18 193742" src="https://github.com/user-attachments/assets/50bd9d0c-a958-4e9b-ba1f-885eeebd1ceb" />
+<img width="803" height="860" alt="Screenshot 2026-09-18 193755" src="https://github.com/user-attachments/assets/b92d1083-db44-4cf0-98c5-dbc75d778ea8" />
+<img width="337" height="242" alt="Screenshot 2026-09-18 193901" src="https://github.com/user-attachments/assets/d498a3ae-bac1-449b-a2ec-e045470e1fc3" />
+
 
 
 
