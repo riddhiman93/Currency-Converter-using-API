@@ -23,17 +23,17 @@ The Java Currency Converter is a lightweight, console-based software application
    javac currencyConverter.java
 
 ## Instructions for Testing
-
-1. **Launch the Application:** Run the program; a text-based menu listing currency codes (e.g., `USD`, `EUR`, `INR`, `GBP`) will appear in your console.
-2. **Enter Base Currency:** When prompted, type the 3-letter currency code for the base currency you wish to convert from (e.g., `USD`) and press **Enter**.
-3. **Enter Target Currency:** Type the 3-letter currency code for the target currency you wish to convert to (e.g., `INR`) and press **Enter**.
-4. **Input Amount:** Enter the numerical monetary amount you want to evaluate when prompted.
-5. **Verify Results:** Check that the console outputs the correct converted value accompanied by the appropriate target currency symbol. 
-6. **Edge Case Testing:** Test with multiple currency pairs and edge cases (such as invalid currency codes or simulated network disruptions) to ensure that error messages trigger properly.
-
+1. **Launch the Application:** Compile and run `currencyConverter_2.java`. A numeric menu will appear in your console listing the available conversion pairs.
+2. **Choose an Option:** When prompted with `Choose an option (1-6):`, type the number corresponding to your desired currency conversion and press **Enter**.
+3. **Input Amount:** When prompted with `Enter amount to convert:`, type the numerical monetary amount you want to evaluate and press **Enter**.
+4. **Verify Results:** Check that the console outputs the newly converted value formatted with two decimal places and the correct target currency symbol (`$`, `€`, `£`, or `₹`).
+5. **Edge Case Testing:** Test with invalid menu choices (such as entering a number outside of 1-6) to ensure the `Invalid choice!` message triggers properly.
+   
 ## Screenshots 
-<img width="692" height="762" alt="Screenshot 2026-09-16 231640" src="https://github.com/user-attachments/assets/71e5006d-ae3d-430a-8b20-3901fbf30534" />
-<img width="842" height="557" alt="Screenshot 2026-09-16 231656" src="https://github.com/user-attachments/assets/bb822680-1637-4f51-a44e-5085fd84cc27" />
-<img width="492" height="337" alt="Screenshot 2026-09-16 231716" src="https://github.com/user-attachments/assets/5938104b-9430-43d3-a42f-b4bd4e8d03b8" />
+<img width="337" height="242" alt="Screenshot 2026-09-18 193901" src="https://github.com/user-attachments/assets/cac4dd36-0d38-442d-af81-eb4657496d72" />
+<img width="803" height="860" alt="Screenshot 2026-09-18 193755" src="https://github.com/user-attachments/assets/a8aae20c-e55f-4eed-b6f2-382309e64f45" />
+<img width="996" height="866" alt="Screenshot 2026-09-18 193742" src="https://github.com/user-attachments/assets/ad5c82c4-5b63-4962-971f-d564876cb419" />
+<img width="633" height="860" alt="Screenshot 2026-09-18 193730" src="https://github.com/user-attachments/assets/85136c2f-b109-49dc-aba8-eb732d1a421f" />
+
 
 
